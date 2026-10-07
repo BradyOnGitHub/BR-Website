@@ -1,7 +1,7 @@
 :root{
   --ink:#000; --bg:#fff;
   /* placeholder highlight colors, one per page */
-  --home:#ff3b30; --contact:#2f6bff; --about:#1fbf6a;
+  --home:#ffa033; --contact:#a7e4ec; --about:#ae23ca;
   --accent:var(--home);
   --gap:clamp(32px,7vh,88px);
 }
