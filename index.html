@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Brady Radio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home">Brady Radio</a>
+  <nav>
+    <a href="#home" data-page="home">Home</a>
+    <a href="#contact" data-page="contact">Contact</a>
+    <a href="#about" data-page="about">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page" id="home">
+    <!-- Replace images/logo.svg with your own logo -->
+    <img class="logo" src="images/logo.png" alt="Logo">
+    <p class="text"><strong>Music for People, Not Algorithms </strong> <br><br> Brady Radio is a way to share and discover music without lifeless algorithms, AI slop, horrible DJs, and grocery store playlists.
+      You can share the songs and albums you're listening to with friends, groupchats, or anyone who follows you.
+You can then download any songs your friends have shared as playlists so you can listen along. You can also customize your profile to share your favorite songs, albums, and artists so people can get to know you and your taste.
+</p>
+    <a class="button" href="#" onclick="return false">Download (Coming Soon)</a>
+  </section>
+
+  <section class="page" id="contact">
+    <h1>Contact</h1>
+    <form>
+      <label for="name">Name</label>
+      <input id="name" autocomplete="name">
+      <label for="email">Your email</label>
+      <input id="email" type="email" autocomplete="email">
+      <label for="message">Message</label>
+      <textarea id="message"></textarea>
+      <button type="submit" class="button">Send</button>
+    </form>
+  </section>
+
+  <section class="page" id="about">
+    <h1>About</h1>
+      <div class="prose">
+        <p> 
+          Many times I have been in the car listening to music from radio stations and playlists and I've wanted to share my love for a new song.
+          There have also been times where nothing I listened to has excited me recently and I feel unable to find something that sparks my love for music.<br><br></p>
+        <p> 
+          Social platforms like Twitter, Instagram, and Reddit haven't served this craving for many reasons.
+          They suffer from gross paid promotions, vapid hot takes, a lack of community, and alogorithms that divert you away from meaningful discovery and conversation.
+          Streaming platforms attempt to solve this issue with autoplay and automatically generated playlists that end up featuring horrible AI songs, zero taste or originality, and music that always errs on the side of safty over truely interesting ideas.
+          This is not even mentioning the scandals around artists paying for playlist promotions and making me wonder how much bias they really have.<br><br></p>
+        <p> 
+          Radio has been my escape from these problems. It introduces you to music with human input, taste, and community.
+          Currated playlists fill this same itch for me, they create discussion around music in a way that algorithms just cant.<br><br></p>
+        <p>
+          With Brady Radio my goal is to emulate these same values in a more intimate and free platform.
+          I want to create a community of music lovers who can share, discover, and discuss music in a space specifically meant for doing so! <br><br>
+
+          While you wait for the app to be released here is some songs I've been listening to lately:<br>
+          Zen Archer - Todd Rundgren<br>
+          Mama's Dead - James Brown<br>
+          It's Only Love - The Beattles<br>
+          Glory - Jay-Z
+        </p>
+      </div>
+  </section>
+</main>
+
+<footer>&copy; Brady G. 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>
